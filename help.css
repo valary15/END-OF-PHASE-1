@@ -97,3 +97,15 @@ footer {
   width: 100%;
   bottom: 0;
 }
+nav {
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 20px;
+}

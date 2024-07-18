@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
-  padding: 20px;
+  margin: 0;
   background-color: #e9c216;
 }
 
@@ -11,16 +10,19 @@ header {
   padding: 10px 0; /* Set top and bottom padding */
 }
 
+.container {
+  padding: 0 100px;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; /* Set left and right padding */
 }
 
 .logo {
   display: flex;
-  align-items: normal;
+  align-items: center;
 }
 
 .logo img {
@@ -29,9 +31,9 @@ header {
   align-items: center;
 }
 
-.logo-text h1 {
-  margin: 5;
+.logo-text {
   color: #0c60b9;
+  margin: 0;
   font-size: 60px; /* Set the font size of the logo text */
   align-items: center;
 }
@@ -41,6 +43,7 @@ header {
   color: #1c19ee;
   font-size: 40px; /* Set the font size of the logo description */
   align-content: end;
+  padding: 20px 0;
 }
 
 nav a {
@@ -149,4 +152,26 @@ footer {
   height: 80px;
   width: 80px;
   border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.cart-total {
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+.bought {
+  text-decoration: line-through;
 }

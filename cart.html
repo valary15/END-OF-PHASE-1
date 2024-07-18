@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thrifty</title>
+    <title>Thrifty | Cart</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,15 +34,14 @@
     </header>
 
     <main>
-      <section class="highlights">
-        <h2>This Weeks Highlights!</h2>
-        <div class="highlight-cards" id="highlight-cards"></div>
-      </section>
+      <div>
+        <table id="cart"></table>
 
-      <section class="offers">
-        <h2>Offers 50% Off</h2>
-        <div class="offer-cards" id="offer-cards"></div>
-      </section>
+        <div id="cart-total" class="cart-total"></div>
+        <div class="cart-total">
+          <button onclick="checkout()">Checkout</button>
+        </div>
+      </div>
     </main>
 
     <footer>
