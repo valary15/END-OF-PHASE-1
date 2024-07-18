@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+}
+
+.offer-banner {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 30px;
+}
+
+.offer-banner h2 {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 30px;
+}
+
+.offer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    background-color: #ffcc66;
+}
+
+.offer-item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.offer-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.offer-item h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.offer-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.offer-item button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.offer-item button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e2d412;
+  color: #340be9;
+}
+
+header {
+  background-color: #fcfff6;
+  color: rgb(39, 3, 243);
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.faq,
+.contact {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2,
+.contact h2 {
+  color: #333;
+}
+
+details {
+  margin-bottom: 10px;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details p {
+  margin: 10px 0 0 20px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact ul li {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form h3 {
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #f4f815;
+  color: rgb(9, 25, 250);
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
