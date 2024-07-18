@@ -1,30 +1,30 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
   background-color: #e9c216;
 }
 
 header {
   background-color: white;
   border-bottom: 1px solid #ccc;
-  padding: 30px 0; /* Set top and bottom padding */
+  padding: 10px 0; /* Set top and bottom padding */
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px; /* Set left and right padding */
+  padding: 20px; /* Set left and right padding */
 }
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: normal;
 }
 
 .logo img {
-  height: 60px; /* Set the height of the logo */
+  height: 80px; /* Set the height of the logo */
   margin-right: 20px; /* Set the right margin of the logo */
   align-items: center;
 }
@@ -33,6 +33,7 @@ header {
   margin: 5;
   color: #0c60b9;
   font-size: 60px; /* Set the font size of the logo text */
+  align-items: center;
 }
 
 .logo-text h4 {
