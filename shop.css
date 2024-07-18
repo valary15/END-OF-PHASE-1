@@ -24,7 +24,7 @@ header {
 
 .slides {
   display: flex;
-  width: 200%;
+  width: 500%;
   transition: 0.3s;
 }
 
